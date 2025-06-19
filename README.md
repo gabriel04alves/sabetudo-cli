@@ -1,4 +1,4 @@
-# Sabetudo CLI
+# SabeTudo CLI
 
 Um assistente de linha de comando (CLI) em Python que consulta a API de IA da Groq para responder perguntas diretamente do terminal.
 
