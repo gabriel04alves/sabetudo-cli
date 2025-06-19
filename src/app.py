@@ -1,4 +1,3 @@
-import os
 import sys
 import typer
 from dotenv import load_dotenv
