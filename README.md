@@ -1,4 +1,4 @@
-# Sabetudo CLI
+# SabeTudo CLI
 
 Um assistente de linha de comando (CLI) em Python que consulta a API de IA da Groq para responder perguntas diretamente do terminal.
 
@@ -62,6 +62,12 @@ sudo dnf install python3 python3-pip
 pip install --user .
 ```
 
+Verifique a instalação:
+
+```bash
+sabetudo --help
+```
+
 ### Debian/Ubuntu
 
 ```bash
@@ -70,20 +76,16 @@ sudo apt install python3 python3-pip
 pip install --user .
 ```
 
+Verifique a instalação:
+
+```bash
+sabetudo --help
+```
+
 ### Arch/Manjaro
 
 ```bash
 sudo pacman -S python python-pip
-pip install --user .
-```
-
-## Instalação definitiva (global)
-
-Você pode instalar o Sabetudo CLI globalmente com:
-
-```bash
-pip install .
-# ou
 pip install --user .
 ```
 
@@ -98,8 +100,7 @@ sabetudo --help
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install typer requests python-dotenv
-# (instale também groq se necessário)
+pip install -r requirements.txt
 pip install .
 python -m sabetudo "sua pergunta"
 ```
